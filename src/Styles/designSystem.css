@@ -155,6 +155,45 @@
     margin: auto;
 }
 
+/*  ! STYLES RULES FOR Responsive Images */
+
+.reponsive_image{
+    max-width: 100%;
+    height: auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 25px;
+}
+
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.common-title{
+    font-size: var(--h1);
+    font-family: var(--font-1);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+/* ! STYLE FOR SECTION ONE */
+
+.section_one{
+    padding: 30px 50px;
+}
+
+.section_one_left--btn{
+    align-self: self-start;
+}
 /* ! STYLES FOR MEDIA QUERIES */
 
 @media (max-width:1200px){
