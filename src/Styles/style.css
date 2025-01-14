@@ -5,3 +5,28 @@
     font-family: var(--font-2);
     color: var(--color-white-75);
 }
+
+
+/* ! STYLES RULES FOR SECTION TWO */
+.sectionTwo__content--text{
+    font-family: var(--font-2);
+    font-size: var(--sub);
+}
+
+.sectionTwo__logo{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+}
+
+.sectionTwo{
+    display: grid;
+    gap: 30px;
+    padding: 40px 50px;
+}
+
+
+.sectionTwo__btn{
+    justify-self: center;
+}
